@@ -52,6 +52,14 @@ The paper is interpretive and the empirical work is **consistency checks rather 
 
 ---
 
+## Discuss this code
+
+- **Bug, reproduction failure, or unexpected output?** → [Open an Issue](../../issues)
+- **Q&A — version compatibility, hardware, generalization to other inputs?** → [Start a Discussion](../../discussions)
+- **Discuss the paper itself** → [Comments on the website article](https://windstorminstitute.org/articles/gravitational-entropy-escrow.html#comments) or [Issues on the Institute repo](https://github.com/Windstorm-Institute/gravitational-entropy-escrow/issues)
+
+---
+
 ## The Windstorm Institute
 
 ### Track 1 — The Throughput Basin · 9 papers (Papers 1–9 globally; 1st through 9th in this track; arc complete)

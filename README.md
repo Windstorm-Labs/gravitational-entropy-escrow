@@ -2,7 +2,7 @@
 
 **An Interpretive Synthesis of Thermodynamic Approaches to Gravity**
 
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20031932-blue)](https://doi.org/10.5281/zenodo.20031932)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20032023-blue)](https://doi.org/10.5281/zenodo.20032023)
 [![License: MIT](https://img.shields.io/badge/Code-MIT-green)](https://opensource.org/licenses/MIT)
 [![License: CC BY 4.0](https://img.shields.io/badge/Data-CC_BY_4.0-lightgrey)](https://creativecommons.org/licenses/by/4.0/)
 [![Track: Entropic Bounds](https://img.shields.io/badge/Track-2_·_Entropic_Bounds-8b5cf6)](https://windstorminstitute.org/#track2)
@@ -15,7 +15,7 @@
 
 - **[Windstorm-Institute/gravitational-entropy-escrow](https://github.com/Windstorm-Institute/gravitational-entropy-escrow)** — paper PDF, article HTML, submission scaffolds
 - **Website article:** [windstorminstitute.org/articles/gravitational-entropy-escrow.html](https://windstorminstitute.org/articles/gravitational-entropy-escrow.html)
-- **Zenodo:** [10.5281/zenodo.20031932](https://doi.org/10.5281/zenodo.20031932) (deposited 2026-05-05)
+- **Zenodo:** [10.5281/zenodo.20032023](https://doi.org/10.5281/zenodo.20032023) (deposited 2026-05-05)
 
 ## What this repo will hold
 
@@ -31,7 +31,7 @@ Plots live in `plots/`.
 
 ## Code archive (current authoritative source)
 
-> **Note (May 2026):** The full Python analysis source — including the Genzel five-case residuals computation, the SPARC `a_0` reanalysis, and the interpolation smoke test, plus their raw output tables — is archived alongside the paper on **[Zenodo (10.5281/zenodo.20031932)](https://doi.org/10.5281/zenodo.20031932)**. Mirroring to this repo is in progress; until that completes, the Zenodo deposit is the canonical reproducibility archive.
+> **Note (May 2026):** The full Python analysis source — including the Genzel five-case residuals computation, the SPARC `a_0` reanalysis, and the interpolation smoke test, plus their raw output tables — is archived alongside the paper on **[Zenodo (10.5281/zenodo.20032023)](https://doi.org/10.5281/zenodo.20032023)**. Mirroring to this repo is in progress; until that completes, the Zenodo deposit is the canonical reproducibility archive.
 
 ## Data sources
 
@@ -72,7 +72,7 @@ The paper is interpretive and the empirical work is **consistency checks rather 
 | # | Paper | DOI |
 |---|-------|-----|
 | 10 | [Phonon Extraction Bound (BEC Analog Gravity)](https://github.com/Windstorm-Institute/phonon-extraction-bound) | [10.5281/zenodo.20014391](https://doi.org/10.5281/zenodo.20014391) |
-| 11 | [Gravitational Entropy Escrow](https://github.com/Windstorm-Institute/gravitational-entropy-escrow) *(this paper)* | [10.5281/zenodo.20031932](https://doi.org/10.5281/zenodo.20031932) |
+| 11 | [Gravitational Entropy Escrow](https://github.com/Windstorm-Institute/gravitational-entropy-escrow) *(this paper)* | [10.5281/zenodo.20032023](https://doi.org/10.5281/zenodo.20032023) |
 
 **Website:** [windstorminstitute.org](https://windstorminstitute.org)
 

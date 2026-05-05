@@ -1,1 +1,3 @@
-# Residual plots, RAR diagrams, and per-galaxy diagnostics will land here as analyses are run.
+# Output figures from analysis runs land here:
+#   sparc_global_a0/   — rar_plot.png, a0_histogram.png
+#   sparc_interpolation/ — (no figures; numerical output only)

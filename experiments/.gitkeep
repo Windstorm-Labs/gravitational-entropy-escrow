@@ -1,5 +1,0 @@
-# Per-analysis directories will land here as scripts are mirrored from the Zenodo archive.
-# Planned layout (per README):
-#   genzel_five_case/    — §6.1 Table 1 residuals
-#   sparc_global_a0/     — §8.4 deep-MOND scale reanalysis
-#   sparc_interpolation/ — §10 interpolation-form smoke test

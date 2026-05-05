@@ -17,33 +17,34 @@
 - **Website article:** [windstorminstitute.org/articles/gravitational-entropy-escrow.html](https://windstorminstitute.org/articles/gravitational-entropy-escrow.html)
 - **Zenodo:** [10.5281/zenodo.20032023](https://doi.org/10.5281/zenodo.20032023) (deposited 2026-05-05)
 
-## What this repo will hold
-
-The paper develops three quantitative empirical analyses. When the analysis scripts and raw output tables are mirrored here from the Zenodo archive, this directory will contain:
+## Contents
 
 | Analysis | Directory | What it does | Paper section |
 |----------|-----------|--------------|---------------|
-| Genzel five-case test | `experiments/genzel_five_case/` | Residuals over 6 high-z galaxies × 5 `a_0` prescriptions × 2 interpolation functions. Independently disfavors `H(z)`-tracking and `(1+z)^(3/2)`-tracking; confirms constant `a_0`. | §6.1 (Table 1) |
-| SPARC global deep-MOND `a_0` | `experiments/sparc_global_a0/` | Median of `g_obs²/g_bar` over ~1,400 deep-MOND points in ~140 SPARC galaxies. Global `a_0 ≈ 1.24 × 10⁻¹⁰ m/s²`. | §8.4 |
-| SPARC interpolation comparison | `experiments/sparc_interpolation/` | Smoke test of simple-μ, McGaugh-ν, and quadrature interpolation forms on ~200 radial points across ~14 galaxies (NGC 3198, NGC 2403, NGC 2915, DDO 154, ...). | §10 |
+| **SPARC global deep-MOND `a_0`** | [`experiments/sparc_global_a0/`](experiments/sparc_global_a0/) | Full SPARC RAR re-analysis. Reproduces global `a_0 ≈ 1.24 × 10⁻¹⁰ m/s²`, the per-galaxy distribution, the DDO 154 spot-check, and the RAR plot. | §8.4 |
+| **SPARC interpolation comparison** | [`experiments/sparc_interpolation/`](experiments/sparc_interpolation/) | Three-way smoke test of simple-μ, McGaugh-ν, and quadrature interpolation forms on a ~200-point, ~14-galaxy SPARC subset (NGC 3198, NGC 2403, NGC 2915, DDO 154, …). Bundled subset included; full SPARC table required for §8.4. | §10 |
+| Genzel five-case test | *(no standalone script — inline in paper)* | The five-case test on Genzel et al. (2017) high-redshift galaxies (Table 1) was performed inline against the published Genzel Table I values; reproducible in a few lines of NumPy. | §6.1 |
 
-Plots live in `plots/`.
+See [`experiments/README.md`](experiments/README.md) for full reproduction instructions, dependencies, and methodology notes.
 
-## Code archive (current authoritative source)
+Output figures and per-analysis plots will be deposited in `plots/` as scripts are run.
 
-> **Note (May 2026):** The full Python analysis source — including the Genzel five-case residuals computation, the SPARC `a_0` reanalysis, and the interpolation smoke test, plus their raw output tables — is archived alongside the paper on **[Zenodo (10.5281/zenodo.20032023)](https://doi.org/10.5281/zenodo.20032023)**. Mirroring to this repo is in progress; until that completes, the Zenodo deposit is the canonical reproducibility archive.
+## Code archive (canonical version)
+
+The Python analysis scripts in this repo are mirrored from the Zenodo deposit. The Zenodo archive — **[10.5281/zenodo.20032023](https://doi.org/10.5281/zenodo.20032023)** — remains the canonical version-locked reproducibility snapshot tied to the paper's quoted numbers; this repo will track future revisions.
 
 ## Data sources
 
-- **SPARC mass-models table** (Lelli, McGaugh & Schombert 2016): publicly available from [astroweb.cwru.edu/SPARC](http://astroweb.cwru.edu/SPARC/). **Not redistributed in this repo.** Download the table directly from the SPARC project before running the analysis scripts.
-- **Genzel et al. (2017)** Table I values (V_c, R_(1/2), ζ_(1/2)) for the six high-z disk galaxies are reproduced inline in the deposited Genzel-five-case script.
+- **SPARC mass-models table** (Lelli, McGaugh & Schombert 2016): publicly available from [astroweb.cwru.edu/SPARC](http://astroweb.cwru.edu/SPARC/). **Not redistributed in this repo** — download `Table2.mrt` directly from the SPARC project, drop it into `experiments/sparc_global_a0/sparc_table2.mrt`, and run.
+- **SPARC subset for §10**: bundled inline at `experiments/sparc_interpolation/sparc_subset_for_interpolation.txt` (drawn from Lelli 2016 Table 2, ~200 radial points across 14 galaxies).
+- **Genzel et al. (2017) Table I**: the six high-z disk galaxy values used in the §6.1 five-case test are reproduced inline in the paper.
 
-## Reproduction (when scripts are mirrored)
+## Reproduction
 
-- **Python:** 3.12+
-- **Dependencies:** NumPy, SciPy, pandas, matplotlib (no astrophysics-specific packages required)
-- **Total compute:** ~1 minute for the Genzel test, ~10 seconds for the SPARC reanalysis
-- **External data:** SPARC mass-models table (download separately per above)
+- **Python:** 3.8 or later
+- **Dependencies:** `numpy`, `pandas`, `matplotlib` (matplotlib only required for §8.4)
+- **Total compute:** ~10 seconds for the SPARC interpolation comparison; ~30 seconds for the full SPARC RAR re-analysis once the Table2.mrt download is in place
+- **External data:** SPARC `Table2.mrt` (download separately per above) for §8.4; bundled subset suffices for §10
 
 ## Posture
 

@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# SPARC raw table — fetch fresh from astroweb.cwru.edu/SPARC/, do not redistribute
+SPARC_Lelli2016c.mrt
+sparc_raw/
+
+# Large run-time artifacts
+*.npz
+*.npy
+*.pkl
+
+# Run-time noise
+nohup.out
+*.pid

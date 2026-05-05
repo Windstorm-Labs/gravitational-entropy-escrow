@@ -54,7 +54,7 @@ The paper is interpretive and the empirical work is **consistency checks rather 
 
 ## The Windstorm Institute
 
-### Track 1 — The Throughput Basin (Papers 1–9, complete arc)
+### Track 1 — The Throughput Basin · 9 papers (Papers 1–9 globally; 1st through 9th in this track; arc complete)
 
 | # | Paper | DOI |
 |---|-------|-----|
@@ -68,12 +68,13 @@ The paper is interpretive and the empirical work is **consistency checks rather 
 | 8 | [The Vision Basin](https://github.com/Windstorm-Institute/vision-basin) | [10.5281/zenodo.19672827](https://doi.org/10.5281/zenodo.19672827) |
 | 9 | [The Hardware Basin](https://github.com/Windstorm-Institute/hardware-basin) | [10.5281/zenodo.19672921](https://doi.org/10.5281/zenodo.19672921) |
 
-### Track 2 — Entropic Bounds in Analog Systems
+### Track 2 — Entropic Bounds in Analog Systems · 3 papers (Papers 10–12 globally; 1st through 3rd in this track; line of inquiry active)
 
 | # | Paper | DOI |
 |---|-------|-----|
-| 10 | [Phonon Extraction Bound (BEC Analog Gravity)](https://github.com/Windstorm-Institute/phonon-extraction-bound) | [10.5281/zenodo.20014391](https://doi.org/10.5281/zenodo.20014391) |
-| 11 | [Gravitational Entropy Escrow](https://github.com/Windstorm-Institute/gravitational-entropy-escrow) *(this paper)* | [10.5281/zenodo.20032023](https://doi.org/10.5281/zenodo.20032023) |
+| 10 | [Phonon Extraction Bound (BEC Analog Gravity)](https://github.com/Windstorm-Institute/phonon-extraction-bound) *(1st in track)* | [10.5281/zenodo.20014391](https://doi.org/10.5281/zenodo.20014391) |
+| 11 | [Gravitational Entropy Escrow](https://github.com/Windstorm-Institute/gravitational-entropy-escrow) *(this paper — 2nd in track)* | [10.5281/zenodo.20032023](https://doi.org/10.5281/zenodo.20032023) |
+| 12 | [C8 Clarification Note](https://github.com/Windstorm-Institute/c8-clarification-note) *(3rd in track; companion to this paper)* | [10.5281/zenodo.20041992](https://doi.org/10.5281/zenodo.20041992) |
 
 **Website:** [windstorminstitute.org](https://windstorminstitute.org)
 

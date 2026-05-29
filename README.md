@@ -41,7 +41,7 @@ The Python analysis scripts in this repo are mirrored from the Zenodo deposit. T
 
 ## Reproduction
 
-- **Python:** 3.8 or later
+- **Python:** 3.11 or later
 - **Dependencies:** `numpy`, `pandas`, `matplotlib` (matplotlib only required for §8.4)
 - **Total compute:** ~10 seconds for the SPARC interpolation comparison; ~30 seconds for the full SPARC RAR re-analysis once the Table2.mrt download is in place
 - **External data:** SPARC `Table2.mrt` (download separately per above) for §8.4; bundled subset suffices for §10

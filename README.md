@@ -48,7 +48,7 @@ The Python analysis scripts in this repo are mirrored from the Zenodo deposit. T
 
 ## Posture
 
-The paper is interpretive and the empirical work is **consistency checks rather than distinguishing tests** (per §8.4.3). Standard MOND with `a_0` treated as a fitted constant also passes these checks by construction. The framework's contribution at the SPARC level is the identification of `a_0` with the Gibbons–Hawking temperature of the cosmological horizon and the recovery of `a_0` to within an order-unity coefficient `α ≈ 1.39` without further free parameters. A genuinely distinguishing test requires either a derivation of the transition functional form from horizon thermodynamics or a regime where the Λ-form vs. H(z)-form distinction makes a quantitative difference; the high-redshift Genzel residuals are the closest existing realization of the latter.
+The paper is interpretive and the empirical work is **consistency checks rather than distinguishing tests** (per §8.4.3). Standard MOND with `a_0` treated as a fitted constant also passes these checks by construction. The framework's contribution at the SPARC level is the identification of `a_0` with the Gibbons–Hawking temperature of the cosmological horizon and the recovery of `a_0` to within an order-unity coefficient `α ≈ 1.34` (or ≈ 0.21 against the raw, un-2π-suppressed de Sitter scale) without further free parameters. A genuinely distinguishing test requires either a derivation of the transition functional form from horizon thermodynamics or a regime where the Λ-form vs. H(z)-form distinction makes a quantitative difference; the high-redshift Genzel residuals are the closest existing realization of the latter.
 
 ---
 

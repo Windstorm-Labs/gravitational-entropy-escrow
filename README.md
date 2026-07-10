@@ -35,7 +35,7 @@ The Python analysis scripts in this repo are mirrored from the Zenodo deposit. T
 
 ## Data sources
 
-- **SPARC mass-models table** (Lelli, McGaugh & Schombert 2016): publicly available from [astroweb.cwru.edu/SPARC](http://astroweb.cwru.edu/SPARC/). **Not redistributed in this repo** — download `Table2.mrt` directly from the SPARC project, drop it into `experiments/sparc_global_a0/sparc_table2.mrt`, and run.
+- **SPARC mass-models table** (Lelli, McGaugh & Schombert 2016): publicly available from [astroweb.cwru.edu/SPARC](https://astroweb.cwru.edu/SPARC/). **Not redistributed in this repo** — download `Table2.mrt` directly from the SPARC project, drop it into `experiments/sparc_global_a0/sparc_table2.mrt`, and run.
 - **SPARC subset for §10**: bundled inline at `experiments/sparc_interpolation/sparc_subset_for_interpolation.txt` (drawn from Lelli 2016 Table 2, ~200 radial points across 14 galaxies).
 - **Genzel et al. (2017) Table I**: the six high-z disk galaxy values used in the §6.1 five-case test are reproduced inline in the paper.
 
